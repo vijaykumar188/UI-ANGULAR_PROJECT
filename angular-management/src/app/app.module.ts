@@ -11,6 +11,7 @@ import { RuSearchInputComponent } from './Re-usable-components/ru-search-input/r
 import { LoginComponent } from './common-components/login/login.component';
 import { SignUpComponent } from './common-components/sign-up/sign-up.component';
 import { DashboardComponent } from './common-components/dashboard/dashboard.component';
+import { TextAreaComponent } from './Re-usable-components/text-area/text-area.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DashboardComponent } from './common-components/dashboard/dashboard.comp
     RuSearchInputComponent,
     LoginComponent,
     SignUpComponent,
-    DashboardComponent
+    DashboardComponent,
+    TextAreaComponent
   ],
   imports: [
     BrowserModule,

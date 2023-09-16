@@ -1,1 +1,21 @@
-<p>ru-banner works!</p>
+<div class="alert" *ngIf="!multipleLines && showAlert">
+    <span class="closebtn" (click)="closeClick()">&times;</span>
+    <span class="textClass">{{message}}
+        <img class="height18" src="./assets/icons/info_white.png" alt="info_icon" *ngif="showIcon"
+            (click)="iconClick()" />
+    </span>
+
+    <div class="divAlert" *ngIf="multipleLines && showAlert">
+        <span class="closebtn" (click)="closeClick()">&times;</span>
+        <div class="divtextClass" *ngFor="let message of messages">
+            <div>
+                <span class="dot"></span>
+            </div>
+
+            <div style="margin-left: 10px;">
+                <span>{{message}}</span>
+            </div>
+        </div>
+        <br>
+    <div>
+</div>

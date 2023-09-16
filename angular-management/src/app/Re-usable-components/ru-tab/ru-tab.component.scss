@@ -1,0 +1,86 @@
+.role-active {
+    background-color: #E33844;
+    border: 1px solid #E33044;
+    border-radius: 10px;
+    color: white;
+    padding: 0px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.role-inactive {
+    background-color: #fff;
+    border: 1px solid #E33044;
+    border-radius: 10px;
+    color: #E33044;
+    padding: 0px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.disableCursor {
+    cursor: not-allowed;
+}
+
+.custom-role-btn {
+    outline: 0;
+    margin: 15px;
+}
+
+.user-approver {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 45px;
+    width: max-content;
+    border-radius: 50px 50px 50px 50px;
+    // box-shadow: 0 4px 7px rgba(288, 288, 288, 0.5);
+    background: white;
+    // transform: translate(-50%,-50%);
+    // border: 1px solid black;
+
+    .toggle-btn {
+        border: 1px solid Snad-progress-bar-color;
+        position: relative;
+        min-width: 100px;
+        height: auto;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        transition: all 0.5s;
+        border-color: white;
+        // @include textEllipsis
+    }
+}
+
+.role-inactive {
+    background: #fff;
+    cursor: pointer;
+    z-index: 0;
+    color: #231F20;
+}
+
+.user-approver-font {
+    font-family: RobotoRegular;
+    padding-left: 3px;
+}
+
+.user-btn-pos {
+    margin-right: 0px;
+}
+
+.elp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.disableDiv {
+    pointer-events: none;
+    opacity: 0.5;
+}
