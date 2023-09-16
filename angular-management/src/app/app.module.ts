@@ -12,6 +12,7 @@ import { LoginComponent } from './common-components/login/login.component';
 import { SignUpComponent } from './common-components/sign-up/sign-up.component';
 import { DashboardComponent } from './common-components/dashboard/dashboard.component';
 import { TextAreaComponent } from './Re-usable-components/text-area/text-area.component';
+import { RuCardComponent } from './Re-usable-components/ru-card/ru-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TextAreaComponent } from './Re-usable-components/text-area/text-area.co
     LoginComponent,
     SignUpComponent,
     DashboardComponent,
-    TextAreaComponent
+    TextAreaComponent,
+    RuCardComponent
   ],
   imports: [
     BrowserModule,
